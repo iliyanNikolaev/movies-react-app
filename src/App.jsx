@@ -36,7 +36,7 @@ function App() {
             <Route path="/details/:movieId" element={<Details />}></Route>
             <Route path="/edit/:movieId" element={<Edit />}></Route>
             <Route path="/DB" element={<DbData />}></Route>
-            <Route path="*" element={<NotFound />}></Route>
+            <Route path="*" element={<Home />}></Route>
           </Routes>
         </div>
 
