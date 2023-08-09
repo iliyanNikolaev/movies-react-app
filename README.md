@@ -1,7 +1,9 @@
 # "Good Movies" forum
 * Author - Iliyan Nikolaev M.
 * Release date - Q3'23
-* Live Demo: link...
+* Live Demo: [view demo](https://iliyannikolaev.github.io/movies-react-app/)
+* You can log in with: username: "test" / password: "123456"
+* Commit history is here: [view commit history](https://github.com/iliyanNikolaev/SoftUni-ReactJS/commits/main/vite-demo/vite-project)
 
 ## Contents
 1. [Introduction](#introduction)
