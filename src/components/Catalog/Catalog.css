@@ -1,0 +1,19 @@
+ul{
+    text-align: center;
+    list-style: none;
+}
+
+.li-item{
+    display: flex;
+    align-items: center;
+    vertical-align: middle;
+    margin: 6px;
+}
+
+.li-poster{
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    overflow: hidden;
+    margin-right: 6px;
+}

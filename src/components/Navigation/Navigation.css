@@ -1,0 +1,33 @@
+header.navigation{
+    background-color: #2f3d7e;
+}
+
+nav {
+    display: flex;
+    justify-content: center;
+    gap: 12px;
+    align-items: center;
+}
+
+nav a {
+    text-decoration: none;
+    border: none;
+    padding: 6px;
+    border-radius: 6px;
+    color: #2f3d7e;
+    font-weight: bold;
+    background-color: #faeaeb;
+}
+
+nav a:hover{
+    background-color: #9f8d8f;
+}
+
+.userGreeting{
+    color: #faeaeb;
+    font-weight: bold;   
+}
+
+.userGreeting span {
+    text-decoration: underline;
+}
