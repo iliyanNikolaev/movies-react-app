@@ -1,3 +1,4 @@
+import styles from './CatalogItem.module.css';
 import React from 'react'
 import { Link } from 'react-router-dom'
 
@@ -6,13 +7,10 @@ export default function CatalogItem({
 }) {
     return (
         <>
-            <li key={movie.objectId} className='li-item'>
-                <img src={movie.imgURL} alt="poster" className='li-poster'/>
-
-                <strong>{movie.title}</strong>
-                
-                <Link to={`/details/${movie.objectId}`}>details</Link>
-            </li>
+            <Link className={styles.project} to={`/details/${movie.objectId}`}>
+                <img className={styles.imgURL} src={`${movie.imgURL}`} alt="poster" />
+                <span className={styles.innerTitle}>{movie.title}</span>
+            </Link>
         </>
     )
 }

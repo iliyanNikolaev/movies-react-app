@@ -1,4 +1,4 @@
-import './Catalog.css'
+import styles from './Catalog.module.css'
 import { useContext } from 'react'
 import { MovieContext } from '../../contexts/movieContext'
 
@@ -9,12 +9,12 @@ export default function Catalog() {
     const { movies } = useContext(MovieContext);
 
     return (
-        <div className='catalog-page'>
+        <div className={styles.container}>
             <h2>Movies discussed</h2>
 
-            <ul>
-                {movies.map(x => <CatalogItem key={x.objectId} movie={x}/>)}
-            </ul>
+            <div className={styles.catalog}>
+                {movies.map(x => <CatalogItem key={x.objectId} movie={x} />)}
+            </div>
         </div>
     )
 }
