@@ -19,7 +19,6 @@ Users can register and log in, create, edit, and delete movies and comments.
 
 ### <a name="usedTech"></a> Used Technologies
 
-* Programming Language - JavaScript (ES6+)
 * Library - [React](https://react.dev/)
 * Backend as a Service - BaaS - [Back4App](https://www.back4app.com/)
 * Style - CSS
