@@ -1,4 +1,5 @@
 import ErrorMsg from "../../../ErrorMsg/ErrorMsg"
+import styles from './EditCommentForm.module.css';
 
 export default function EditCommentForm({
     currComment, 
@@ -12,14 +13,16 @@ export default function EditCommentForm({
             {hasError ? <ErrorMsg text={errorText} className="edit-comment-error" />
                 : <>
                     <input
+                    className={styles.input}
                         type="text"
                         name="content"
                         value={currComment.content}
                         onChange={onChange} />
-                    <input
+                    <button
+                        className={styles.button}
                         type="submit"
-                        value="Save Changes"
-                        onClick={onEditHandler} />
+                        onClick={onEditHandler}>Save
+                    </button>
                 </>
             }
         </>

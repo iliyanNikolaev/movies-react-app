@@ -1,3 +1,4 @@
+import styles from './CommentItem.module.css';
 import { useState } from "react";
 import { Link } from "react-router-dom";
 import { useContext } from "react";
@@ -64,10 +65,8 @@ export default function CommentItem({
   }
 
   return (
-    <li>
-
-      <strong>{comment.username}:</strong> {onEdit ? null : `${currComment.content}`}
-
+    <li className={styles.comment}>
+      <span className={styles.author}>{comment.username}</span>: {onEdit ? null : `${currComment.content}`}
       {currComment.owner.objectId == auth?.objectId
         ? <>
           {onEdit
@@ -81,8 +80,8 @@ export default function CommentItem({
                 errorText={errorText}
               />}</>
             : <>
-              <Link to="#" onClick={editClicked}>Edit</Link>
-              <Link to="#" onClick={() => onDeleteHandler(currComment.objectId, currComment.content)}>Delete</Link>
+              <i className={`fas fa-edit ${styles.icon}`} onClick={editClicked}></i>
+              <i className={`fas fa-trash-alt ${styles.icon}`} onClick={() => onDeleteHandler(currComment.objectId, currComment.content)}></i>
             </>
           }
         </>

@@ -21,7 +21,7 @@ body {
 .form {
     border: 2px solid #2f3d7e;
     border-radius: 6px;
-    padding: 36px;
+    padding: 16px;
     display: flex;
     flex-direction: column;
     gap: 12px;
@@ -31,15 +31,25 @@ body {
     display: flex;
     vertical-align: middle;
     align-items: center;
+    gap: 16px;
 }
 
 .form label i {
     color: #2f3d7e;
+    font-size: 24px;
 }
 
 .form label input,
 .form label textarea {
-    margin-left: 6px;
+    width: 300px;
+    border: 2px solid #2f3d7e;
+    outline: none;
+    padding: 12px;
+    background-color: transparent;
+    border-radius: 12px;
+    font-size: 16px;
+    color: #2f3d7e;
+    font-weight: bold;
 }
 
 .form button {
@@ -58,4 +68,13 @@ body {
 .form button:hover{
     cursor: pointer;
     background-color: #9f8d8f;
+}
+
+ul{
+    list-style: none;
+}
+
+h2{
+    color: #2f3d7e;
+    font-size: 28px;
 }

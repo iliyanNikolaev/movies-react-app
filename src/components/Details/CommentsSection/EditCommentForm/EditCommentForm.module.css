@@ -1,0 +1,25 @@
+.input {
+    width: 150px;
+    border: 2px solid #2f3d7e;
+    outline: none;
+    padding: 4px;
+    background-color: transparent;
+    border-radius: 6px;
+    color: #2f3d7e;
+    font-weight: bold;
+}
+
+.button {
+    border: none;
+    border-radius: 6px;
+    background-color: #2f3d7e;
+    color: #faeaeb;
+    font-weight: bold;
+    margin-left: 12px;
+    padding: 6px;
+}
+
+.button:hover {
+    cursor: pointer;
+    background-color: #9f8d8f;
+}

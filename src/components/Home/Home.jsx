@@ -10,7 +10,7 @@ export default function Home() {
             </div>
 
             <div className={styles.imgContainer}>
-                <img className={styles.img} src="./homeIMG.png" alt="image" />
+                <img className={styles.img} src="https://www.freeiconspng.com/uploads/blue-filmstrip-png-21.png" alt="image" />
             </div>
         </div>
     )

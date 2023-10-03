@@ -1,0 +1,11 @@
+.comment{
+    font-size: 18px;
+}
+.author{
+    color: #2f3d7e;
+    font-weight: bold;
+}
+.icon{
+    margin-left: 12px;
+    cursor: pointer
+}

@@ -44,7 +44,7 @@ export default function Details() {
                 : <>
                     <div className="movieCard">
                         <h2>{currentMovie.title} details</h2>
-                        <p className="descr"> <strong>Description:</strong> {currentMovie.description}</p>
+                        <p className="descr">{currentMovie.description}</p>
 
                         <img src={currentMovie.imgURL} alt="poster" className="poster" />
 

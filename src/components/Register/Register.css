@@ -2,17 +2,3 @@
     text-align: center;
 }
 
-.register-form{
-    display: flex;
-    flex-direction: column;
-    gap: 12px;
-}
-
-.register-form button{
-    width: 60px;
-    align-self: center;
-}
-
-.register-form label input {
-    margin-left: 6px;
-}

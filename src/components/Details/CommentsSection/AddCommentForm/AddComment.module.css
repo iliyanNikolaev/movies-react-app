@@ -1,0 +1,14 @@
+.input{
+    width: 150px;
+    border: 2px solid #2f3d7e;
+    outline: none;
+    padding: 4px;
+    background-color: transparent;
+    border-radius: 6px;
+    color: #2f3d7e;
+    font-weight: bold;
+}
+
+.icon{
+    font-size: 20px;
+}

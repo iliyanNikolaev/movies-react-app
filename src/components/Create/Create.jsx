@@ -89,7 +89,7 @@ export default function Create() {
             <label htmlFor="imgURL"><i className="fas fa-link"></i> 
                 <input 
                     type="text"
-                    placeholder="Movie Poster URL" 
+                    placeholder="Copy poster URL from img on internet" 
                     name="imgURL" 
                     id="imgURL" 
                     value={formValues.imgURL}
